@@ -1,19 +1,19 @@
 {
-  "name": "npm-package-test",
+  "name": "@frontierpsychiatrist/npm-package-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/FrontierPsychiatrist/npm-package-test.git"
-  },
+  "repository": "git://github.com/FrontierPsychiatrist/npm-package-test.git",
   "author": "Moritz do Rio Schulze <moritz@frontierpychiatrist.de>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FrontierPsychiatrist/npm-package-test/issues"
   },
-  "homepage": "https://github.com/FrontierPsychiatrist/npm-package-test#readme"
+  "homepage": "https://github.com/FrontierPsychiatrist/npm-package-test#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
